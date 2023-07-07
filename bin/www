@@ -15,6 +15,8 @@ const options = {
 
 const server = https.createServer(options, app);
 
+process.setuid('ubuntu');
+
 
 server.listen(httpsPort);
 server.on('error', onError);
