@@ -14,9 +14,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 const indexRouter = require('./routes/index');
-const privacypolicyRouter = require('./routes/privacypolicy');
-app.use('/', privacypolicyRouter);
-app.use('/privacypolicy', privacypolicyRouter);
+const privacyPolicyRouter = require('./routes/privacyPolicy');
+const termsOfUseRouter = require('./routes/termsOfUseRouter');
+
+app.use('/', indexRouter);
+app.use('/privacy-policy', privacyPolicyRouter);
+app.use('/terms-of-use', termsOfUseRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
