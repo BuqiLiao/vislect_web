@@ -44,7 +44,7 @@
 	// Scrolly.
 		$('.scrolly')
 			.scrolly({
-				speed: 1500
+				speed: 100
 			});
 
 })(jQuery);

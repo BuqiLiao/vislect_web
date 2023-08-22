@@ -2325,7 +2325,7 @@ input, select, textarea {
 			box-shadow: none;
 			border-radius: 0;
 			margin: 0 0 3em 0;
-			width: 13em;
+			width: 15em;
 		}
 
 			.image.phone img {
@@ -2755,14 +2755,12 @@ input, select, textarea {
 
 		.spotlight .image {
 			width: 30%;
-			border-radius: 100%;
 			margin: 0 3em 0 0;
 			display: block;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
 				width: 100%;
 			}
 
@@ -3958,10 +3956,6 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) and (orientation: landscape) {
 
-			#header {
-				padding: 2em 2em 0.1em 2em ;
-			}
-
 				#header .content {
 					margin: 0 2em 2em 0;
 				}
@@ -3980,22 +3974,14 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) and (orientation: portrait) {
 
-			#header {
-				padding: 3em 1.5em 1em 1.5em ;
-			}
-
 				#header .image {
-					font-size: 0.6em;
+					font-size: 0.7em;
 					max-width: 60vw;
 				}
 
 		}
 
 	@media screen and (max-width: 480px) and (orientation: landscape) {
-
-		#header {
-			padding: 2em 1.5em 0.1em 1.5em ;
-		}
 
 			#header .image {
 				font-size: 0.7em;
@@ -4008,10 +3994,6 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 480px) and (orientation: portrait) {
-
-		#header {
-			padding: 2em 1em 0.1em 1em ;
-		}
 
 	}
 
